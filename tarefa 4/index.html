@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 40%;
+            margin: auto;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        
+        #button-cancel {
+            background-color: red;
+            color: aliceblue;
+        }
+
+        #button-submit {
+            background-color: green;
+            color: aliceblue;
+        }
+    </style>
+    <title>Tarefa 4</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form method="post">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="cpf">CPF:</label>
+            <input type="number" name="cpf" id="cpf">
+
+            <label for="rg">RG:</label>
+            <input type="number" name="rg" id="rg">
+
+            <label for="nascimento">Data Nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento">
+
+            <label for="rua">Rua: </label>
+            <input type="text" name="rua" id="rua">
+
+            <label for="numero">N° casa:</label>
+            <input type="number" name="numero" id="numero">
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+
+            <label for="genero">Escolha seu gênero:</label>
+            <select id="genero" name="genero">
+                <option value="homem">Homem</option>
+                <option value="mulher">Mulher</option>
+            </select>
+
+            <label for="raca">Escolha seu gênero:</label>
+            <select id="raca" name="raca">
+                <option value="pardo">Pardo</option>
+                <option value="branco">Branco</option>
+                <option value="negro">Negro</option>
+                <option value="indigena">Indigena</option>
+                <option value="amarelo">amarelo</option>
+            </select>
+
+            <div class="buttons-actions">
+                <button type="button" id="button-cancel">cancelar</button>
+                <button type="submit" id="button-submit">enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
