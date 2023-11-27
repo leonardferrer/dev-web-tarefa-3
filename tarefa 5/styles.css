@@ -1,0 +1,42 @@
+.container {
+    margin-top: 80px;
+    color: blue;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#p1 {
+    color: #C1121F;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+#p2 {
+    color: #596895;
+    font-family: 'Sans Serif';
+    font-size: 8px;
+}
+
+#p3 {
+    color: #8338EC;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+#p4 {
+    color: #588157;
+    font-family: 'Palatino Linotype';
+    font-size: 12px;
+}
+
+#p5 {
+    color: #FF4D6D;
+    font-family: 'Courier New',;
+    font-size: 22px;
+}
+
+#p6 {
+    color: #0FA3B1;
+    font-family: 'Helvetica';
+    font-size: 29px;
+}
