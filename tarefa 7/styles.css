@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ccd5ae;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #e63946;
+}
+
+
+.item {
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Lucia Sans',
+        'Lucida Sans Regular', 'Lucida Grande',
+        'Lucia Sans Unicode', 'Verdana', 'Geneva',
+        'sans-serif';
+    width: 10%;
+    text-align: end;
+    margin-right: 15%;
+}
+
+/* Principal */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10%;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+}
